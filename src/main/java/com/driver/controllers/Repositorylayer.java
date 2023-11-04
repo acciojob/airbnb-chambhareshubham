@@ -20,7 +20,7 @@ public class Repositorylayer {
             return "FAILURE";
         }
         hm.put(hotel.getHotelName(),hotel);
-        return "SUCSSES";
+        return "SUCCESS";
     }
     public int addUser(User user){
         userdetails.put(user.getaadharCardNo(),user);
